@@ -2,3 +2,30 @@
     font-size: 7vw;
     text-transform: uppercase;
 }
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 35vh;
+    width: 100%;
+}
+
+@media (max-width: 900px){
+    .header{
+        height: 25vh;
+    }
+    .title{
+        font-size: 11vw;
+    }
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search , .select{
+    width: 45%;
+}
